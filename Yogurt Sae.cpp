@@ -7,7 +7,7 @@ int main(){
     while(t--){
         int n,a,b;
         cin>>n >> a >>b;
-        if(a<(2*b)){
+        if(2*a>b){
             
             cout<<n*a;
 
