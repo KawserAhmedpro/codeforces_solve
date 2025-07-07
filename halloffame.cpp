@@ -7,9 +7,9 @@ int main(){
         int n;
         cin>>n;
         string a;
-        int ans=0,i;
+        int ans=0,i=0;
         cin>>a;
-        for(int i=0;i<n-1;i++){
+        for( i=0;i<n-1;i++){
             if(a[i]!=a[i+1]){
                 ans=1;
                 break;
@@ -27,3 +27,6 @@ int main(){
 
 
     }
+}
+   return 0;
+}
