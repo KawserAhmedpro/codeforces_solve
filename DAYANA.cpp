@@ -9,11 +9,11 @@ int main(){
          int a[n];
          for(int i=0;i<n;i++){
             cin>>a[i];
-            if(a[i]=k)ans=1;
+            if(a[i]==k)ans=1;
             
          }
-         if(ans)cout<<"YES"<<endl;
-         cout<<"NO"<<endl;
+         if(ans==1)cout<<"YES"<<endl;
+         else cout<<"NO"<<endl;
     }
     return 0;
 }
