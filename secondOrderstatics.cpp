@@ -12,5 +12,8 @@ int main(){
     int index=1;
     auto it=st.begin();
     advance(it,index);
+    if(st.size()<2)cout<<"NO"<<endl;
+    else
     cout<<*it<<endl;
+    return 0;
 }

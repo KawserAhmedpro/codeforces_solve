@@ -14,7 +14,7 @@ int main(){
         cin>>command>>ip;
         string nip = ip;
         nip.pop_back();
-        cout<<command<<" "<<" #"<<IP[nip]<<endl;
+        cout<<command<<" "<< ip <<" #"<<IP[nip]<<endl;
     }
     return 0;
 }

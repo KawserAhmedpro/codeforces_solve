@@ -13,8 +13,7 @@ int main(){
             if(a[i]!=a[i+1]){
                 ans=1;
                 break;
-            }
-            
+            }          
         }
         if(ans==0){cout<<-1<<endl;}
         else {
@@ -24,8 +23,6 @@ int main(){
         }
         else
             cout<<i+1<<endl;
-
-
     }
 }
    return 0;

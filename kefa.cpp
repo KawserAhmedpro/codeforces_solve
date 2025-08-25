@@ -13,7 +13,7 @@ int main(){
     if(a.back()>x){
        a.clear();
     }
-    else 
+   
     a.push_back(x);
     ans= max(ans,(int)a.size());
 

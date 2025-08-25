@@ -10,9 +10,10 @@ int main(){
         else{
              int ans= (k-1)*k/2;
             if(x==k)x--;
-            ans+=(n-k)*x;
+            ans+=(n-k)*x; 
             cout<<ans<<endl;
         }
         
     }
 }
+

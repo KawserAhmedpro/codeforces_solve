@@ -11,7 +11,7 @@ int main(){
       int mn1 =min(p1.first,p1.second);
       int mx2 =max(p2.first,p2.second);
       int mn2 =min(p2.first,p2.second);
-      if(mx1==mx2 && mn1+mn2==mx1)cout<<"Yes";
+      if(mx1==mx2 && mn1+mn2==mx1)cout<<"Yes"<<endl;
       else cout<<"No"<<endl;
     }
     return 0;
