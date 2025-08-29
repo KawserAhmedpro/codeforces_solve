@@ -4,31 +4,28 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        int n;
-        cin>>n;
-        vector<int>a(n);
-        for(int i=0;i<n;i++){
+        int c1,c2,c3;
+        cin>>c1>>c2>>c3;
+       vector<int>a(5);
+        for(int i=0;i<5;i++){
             cin>>a[i];
         }
-        
-        int l=0,r=n-1;
-       int ans=0;
-        while(l<r){
-            int suml=0,sumr=0;
-            suml+=a[l];
-             sumr+=a[r];
-            if(suml==sumr){
-                ans=max(ans,n-r-l+1-2);
-            }
-            if(suml>sumr){
-                r++;
-            }
-            if(suml<sumr){
-                l++;
-            }
+
+
+        if(a[0]>c1 || a[1]>c2 || a[2]>c3){
+            cout<<"NO"<<endl;
+            continue;
         }
-        cout<<ans<<endl;
+        if(c1+c3<a[0]+a[3]){
+              cout<<"NO"<<endl; 
+             continue;
+
+        }
+        if(c2+c3<a[2]+a[4]){
+              cout<<"NO"<<endl; 
+             continue;
+
 
     }
-    return 0;
+    else cout<<"YES"<<endl;
 }
