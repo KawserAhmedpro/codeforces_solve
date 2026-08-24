@@ -6,13 +6,8 @@ int main(){
     while(t--){
         int n;
         cin>>n;
-        vector<int>a(n);
-
-      for(int i=0;i<n;i++){
-        cin>>a[i];
-        cout<<n-a[i]+1<<" ";
-      }
-      cout<<endl;
+       cout<<(n-1)/2<<endl;
+       
     }
     return 0;
 }

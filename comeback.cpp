@@ -7,12 +7,18 @@ int main(){
         int n;
         cin>>n;
         vector<int>a(n);
-
-      for(int i=0;i<n;i++){
+        int minusone=0,zero=0;
+        for(int i=0;i<n;i++){
         cin>>a[i];
-        cout<<n-a[i]+1<<" ";
-      }
-      cout<<endl;
+    if(a[i]==-1)minusone++;
+if(a[i]==0)zero++;}
+if(minusone%2==0){
+    cout<<zero<<endl;
+}
+else{
+    cout<<2+zero<<endl;
+}
+
     }
     return 0;
 }
